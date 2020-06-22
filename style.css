@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #293251;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 30px;
+}
+
+.container {
+    width: 450px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    height: auto;
+}
+
+.app-title {
+    text-align: center;
+    margin: 20px 0px;
+    background-color: #8155fb;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.zip-code {
+    padding-left: 30px;
+    margin: 10px 0;
+}
+
+.zip-code input {
+    padding: 10px;
+    font-size: 20px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.country-code {
+    margin: 10px 0;
+    padding-left: 30px;
+}
+
+.country-code input {
+    padding: 10px;
+    font-size: 20px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.feel {
+    margin: 10px 0;
+    padding-left: 30px;
+}
+
+.feel textarea {
+    padding: 10px;
+    font-size: 20px;
+    border-width: 1px;
+    border-radius: 5px;
+    max-width: 330px;
+    min-width: 330px;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.primary-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(216, 67, 67);
+    border-radius: 10px;
+    color: rgb(216, 67, 67);
+}
+
+#entryHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span {
+    color: #293251;
+    font-size: 1em;
+}
+
+#temp {
+    padding: 5px 0;
+}
+
+#description {
+    padding: 5px 0;
+}
+
+#date {
+    padding: 5px 0;
+}
+
+#location {
+    padding: 5px 0;
+}
+
+#feelings {
+    padding: 5px 0;
+}
+
+#date {
+    font-size: 20px;
+}
+
+#temp p {
+    font-size: 37px;
+}
+
+span {
+    font-size: 20px;
+}
+
+#location p {
+    font-size: 20px;
+}

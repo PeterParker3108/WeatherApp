@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- meta information -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- title of the app -->
+    <title>Weather App</title>
+    <!-- links -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 class="app-title">Weather Journal App</h2>
+        <div class="zip-code"><input placeholder="Enter Zip Code Here" type="number" id="zip"></div>
+        <div class="country-code"><input placeholder="Enter Country Code" type="text" id="country-code"></div>
+        <div class="feel"><textarea rows="5" cols="30" placeholder="How Are You Feeling Today ?" id="feelings"></textarea></div>
+        <div class="primary-btn"><button id="generate">Get My Weather</button></div>
+        <div id="entryHolder">
+            <div id="iconID"><img src="icons/unknown.png"></div>
+            <div id="temp">
+                <p>- &#176<span>C</span></p>
+            </div>
+            <div id="description">
+                <p> - </p>
+            </div>
+            <div id="date"></div>
+            <div id="location">
+                <p> - </p>
+            </div>
+            <div id="content">
+                <p> - </p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="tests.js"></script>
+</body>
+
+</html>
